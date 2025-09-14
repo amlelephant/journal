@@ -25,7 +25,7 @@ int main()
     
     
     
-    path = "C:/Users/Aiden/Desktop/Christmas List/New folder/c/mineremake/homework.txt";
+    path = "REPLACE HERE";
     
     /* Open file */
     FILE *file = fopen(path, "r");
@@ -254,3 +254,4 @@ int decrypt(char *sentence){
     
     
 }
+
