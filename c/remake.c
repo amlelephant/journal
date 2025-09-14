@@ -746,7 +746,7 @@ int write_file(char ch)
     
     
     
-    fptr = fopen("C:/Users/Aiden/Desktop/Christmas List/New folder/c/mineremake/homework.txt","a+");
+    fptr = fopen("REPLACE HERE","a+");
     
 
     if(fptr == NULL)
@@ -769,7 +769,7 @@ int write_time()
 
     time_t t = time(NULL);
     struct tm tm = *localtime(&t);
-    fptr = fopen("C:/Users/Aiden/Desktop/Christmas List/New folder/c/mineremake/homework.txt","a+");
+    fptr = fopen("REPLACE HERE","a+");
 
     if(fptr == NULL)
     {
@@ -781,5 +781,6 @@ int write_time()
 
     return 0;
 }
+
 
 /*------------------end encrypt funciton------------------*/
