@@ -1,4 +1,4 @@
-# 🔒 Robust Journal System
+# Robust Journal System
 
 **Robust Journal System** is a locally run, privacy-focused journaling application designed for secure offline usage.  
 It implements an **XOR encryption algorithm** to protect both text entries and images, keeping sensitive data fully offline while maintaining functional code locally.  
